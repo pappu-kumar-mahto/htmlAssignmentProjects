@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>First HTML Assignment</title>
+    <link rel="stylesheet" href="asignment1.css">
+</head>
+
+<body>
+    <header id="head">
+        <h1>This is a <span style="color: yellow;">header</span> tag</h1>
+    </header>
+    <div>
+        <h1>This is a usual h1 heading having div as a parent</h1>
+        <p>This is a usual paragraph, which is a direct child of div and direct sibling of h1</p><br>
+        <hr>
+        <article>
+            <p>This is an artical tag, I am the only children of the above div</p>
+            <hr>
+        </article>
+    </div>
+    <div>
+        <section>
+            <p>This is a section tag, I am the only childer of this div</p>
+            <hr>
+        </section>
+    </div>
+    <div>
+        <form action="http://www.google.com/">
+            <h2>This is a h2 tag inside a form telling u guys that this is a feedback form</h2>
+            <div>
+                <label for="name">Enter your Name:<input type="text" id="name"><br></label>
+
+                <label for="mailId">Enter your email Id:<input type="text" id="mailId"><br></label>
+
+                <label for="rating">Rating:<input type="number" id="rating" min="1" max="10"><br></label>
+
+            </div>
+            <p>Please select your favorite web language:</p>
+            <div>
+
+                <label for="batch9"><input type="radio" id="batch9" name="favLang"> Batch 09</label><br>
+
+                <label for="batch10"><input type="radio" id="batch10" name="favLang"> Batch 10</label><br>
+                <button type="submit" style="border-radius: 15px;">submit form to get redirected to google</button>
+            </div>
+        </form>
+
+        <div class="carBox">
+            <div>
+                <img src="bugatiImage.jpg" alt="Bugati Image" class="carImage">
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <a href="#head" style="color: aliceblue;">
+            This is a footer tag
+        </a>
+    </footer>
+
+</body>
+
+</html>
