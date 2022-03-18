@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div form {
+    border: 3.5px dashed black;
+    padding: 0px 0px 10px 10px;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.712), rgba(88, 54, 54, 0.89));
+    color: white;
+}
+
+div form div * {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.712), rgba(88, 54, 54, 0.89));
+    color: white;
+}
+.carBox{
+    width: 1500px; 
+    height: 640px; 
+    background-color: aliceblue;
+}
+
+.carImage {
+    height: 630px;
+    width: 1480px;
+    border-radius: 15px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+
+footer {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    bottom: 0px;
+}
+
+header {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
