@@ -2,25 +2,32 @@
     margin: 0px;
 }
 body{
-    text-align: center;
-    margin: 25px;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 150px;
+    margin-top: 70px;
+    background-color: green;
 }
 .product{
-    display: inline-block;
     position: relative;
     /* border: 1px solid black; */
     background-color: aliceblue;
     border-radius: 15px;
+    height: 600px;
+    width: 800px;
+    flex-wrap: wrap;
 }
 
 .productPhoto{
-    display: inline-block;
     /* border: 2px solid orange; */
     border-radius: 15px;
     background-image: linear-gradient(to bottom right, yellow, green );
-    margin-top: 5%;
     position: relative;
-    right: 5%;
+    top: 6%;
+    left: -6%;
+    width: 380px;
     
 }
 .fltLeft{
@@ -33,15 +40,19 @@ body{
     margin: 10px;
     color: white;
 }
-#primeApple{  
-    width: 250px;
-    height: 400px;
+#primeApple{
+    position: relative;  
+    top: 30px;
+    left: -22%;
     /* border: 2px solid rgb(47, 61, 255); */
 }
 .ApplePhotoAlbum{
-    display: block;
+    /* display: block; */
+    /* position: relative; */
     background-color: aliceblue;
     padding: 25px 35px ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .ApplePhotoAlbum>img{
@@ -53,15 +64,17 @@ body{
 }
 .productInfo{
     display: inline-block;
-    border: 2px solid yellow;
-    margin-top: 25px;
-    position: absolute;
-    text-align: left;
+    /* border: 2px solid yellow; */
+    position: relative;
+    left: 370px;
+    bottom: 430px;
 }
-.title{
-    position: absolute;
-    margin: 5px;
-    display: inline-block;
+.title>h1{
+    position: relative;
+    padding-bottom: 10px;
+    color: #db0f7c;
+    font-size: 35px;
+    
 }
 .title>span{
     font-size: 12px;
@@ -71,8 +84,10 @@ body{
 }
 
 .price{
+    position: relative;
     color: rgb(248, 23, 23);
     padding: 70px 0px;
+    bottom: 50px;
 }
 
 .price>span{
@@ -80,21 +95,31 @@ body{
 }
 .varient{
     position: relative;
-    display: inline-block;
-    border: 2px solid red;
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    bottom: 100px;
+}
+.varient>h3{
+    color: #4077e6;
 }
 .varient img:hover{
     border: 1px solid red;
 }
 
 .description{
-    display: inline-block;
-    border: 2px solid;
-    padding: 25px ;
-    text-align: left;
+    position: relative;
+    /* border: 2px solid; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 500px;
+    left: 370px;
+    color: #0e4a82;
+    font-size: 20px;
 }
-h3{
-    color: grey;
+.description>span{
+    margin-bottom: 10px;
+    color: #40e6b1;
+    text-decoration: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .BuyBtn{
@@ -104,8 +129,10 @@ h3{
     font-size: 14px;
     text-align: center;
     padding: 15px 40px;
-    margin-bottom: 25px;
     float: right;
-    margin-right:25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    position: relative;
+    bottom: 75%;
+    right: 32%;
 }
