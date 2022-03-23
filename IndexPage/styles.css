@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to bottom right, #8adfee, #3af153);
+}
+
+h1{
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    font-size: larger;
+}
+.links:hover{
+    color: red;
+    text-decoration: underline;
+}
