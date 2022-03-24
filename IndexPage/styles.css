@@ -1,31 +1,55 @@
 body{
-    background-image: linear-gradient(to bottom right, #8adfee, #3af153);
-}
-
-.header{
+    background-image: linear-gradient(60deg, #f4f79e, #77bd08)
+  }
+  #title{
+    display: block;
     text-align: center;
     font-family: "Ramaraja", Arial, Helvetica, sans-serif;
-    padding-top: 25px;
-}
-
-.links{
-    text-decoration: none;
-    font-size: larger;
-    text-align: center;
-    margin: 5px 13px;
-}
-.links:hover{
-    color: red;
-    text-decoration: underline;
-    cursor: pointer;
-}
-.linktext{
-    margin-left: 15%;
-    font-size: larger;
-    font-family: "Bungee", cursive;
-    color: rgb(49, 138, 197);
-    text-shadow: 1px 2px white;
-}
-.frameVal{
+    padding-top: 15px;
+    color: blue;
+    font-weight: bolder;
+    margin: 15px;
+  
+  }
+  .projectImg>img{
+    height: auto;
+    width: 100%;
     margin: 10px;
-}
+    border-radius: 15px;
+    object-fit: contain;
+    border: 1px dotted #0afaf2;
+  }
+  .links{
+    text-decoration: none;
+  }
+  .projectImg>img:hover{
+    width: 26.875rem;
+  }
+  
+  .links:hover{
+    cursor: pointer;
+    color: #22f063;
+  }
+  
+  .projectTag{
+    text-align: center;
+    font-family: "Bungee", Arial, Helvetica, sans-serif;
+    padding: 5px 0px;
+  }
+  
+  #footer{
+    text-align: center;
+    padding-top: 50px;
+  }
+  #OwnerName{
+    font-family: "Hurricane", cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #2610e9;
+  }
+  #OwnerName:hover{
+    color: blueviolet;
+  }
+  #OwnerContact{
+    text-decoration: none;
+  }
